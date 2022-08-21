@@ -1,0 +1,3 @@
+run ครั้ง user logstash_internal จะสร้าง index ชื่อ elk-*
+ต้องไปที่ drash board หน้า http://localhost:5601/app/management/security/roles/edit/logstash_writer ไปเพิ่ม indices = elk-* ถึงจะสามารถสร้างได้
+https://discuss.elastic.co/t/role-that-would-allow-a-user-to-create-index-in-es/274534
