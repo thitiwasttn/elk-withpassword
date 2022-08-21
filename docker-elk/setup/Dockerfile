@@ -1,7 +1,7 @@
 ARG ELASTIC_VERSION
 
 # https://www.docker.elastic.co/
-FROM docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.3.3
 
 USER root
 
